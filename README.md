@@ -12,7 +12,7 @@ El propósito de este proyecto es aprender y demostrar cómo implementar funcion
 
 ## 📂 Contenido
 
-## 🌟 Funcionalidades principales
+### 🌟 Funcionalidades principales
 
 1. **Gestión de Login y Autenticación**:
    * Implementación de un sistema de login utilizando `useForm` y Redux Toolkit.
