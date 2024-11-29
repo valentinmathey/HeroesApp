@@ -1,0 +1,49 @@
+.containerPrincipalList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.containerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 3px solid #ffbb00;
+}
+
+.containerList {
+    display: grid;
+    margin: 2rem 0;
+    width: 90%;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+    justify-items: center;
+    overflow: visible;
+}
+
+.containerList > div {
+    width: 100%;
+    max-width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.containerList img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}

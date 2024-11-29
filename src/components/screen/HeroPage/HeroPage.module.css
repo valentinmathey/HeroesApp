@@ -1,0 +1,66 @@
+.containerHeroPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem; /* Más espacio entre imagen y descripción */
+    padding: 2rem; /* Espaciado general */
+    margin: 0 auto;
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo claro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.containerImgHeroPage {
+    flex: 1; /* Ocupa espacio proporcional */
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.containerImgHeroPage img {
+    width: 100%; /* La imagen se adapta al ancho */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 0.4rem;
+}
+
+.containerHeroDetails {
+    flex: 1; /* Ocupa el resto del espacio */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color del texto */
+}
+
+.containerHeroDetails h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff; /* Color azul para el nombre del héroe */
+}
+
+.containerHeroDetails ul {
+    list-style: none; /* Eliminar puntos de la lista */
+    padding: 0;
+}
+
+.containerHeroDetails li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.containerHeroDetails li b {
+    color: #555; /* Texto en negrita */
+}
+
+.containerHeroDetails .btn-primary {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.containerHeroDetails .btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón */
+}

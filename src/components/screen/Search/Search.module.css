@@ -1,0 +1,39 @@
+.containerSearch {
+    display: flex;
+    flex-direction: column; /* Cambiado para diseño vertical */
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    min-height: 90vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .inputWrapper {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .containerListHeroes {
+    width: 100%;
+    max-width: 1200px;
+    display: grid; /* Usar grid para diseño más dinámico */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+  .cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .noResults {
+    text-align: center;
+    color: #888;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
